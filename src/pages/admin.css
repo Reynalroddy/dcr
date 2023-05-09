@@ -1,0 +1,42 @@
+.bg-blue-dark{
+    background-color:#2D96FB;
+  }
+  
+  .bg-blue-light{
+    background-color: #FEA93B;
+  }
+  
+  .bg-darkness{
+    background-color:#0D5CAB
+  }
+
+  .bg-redz{
+    background-color: #F30C1C;
+  }
+
+  .p-chart  canvas{
+    width: 100% !important;
+  }
+  
+
+  .p-datatable .p-datatable-thead > tr > th {
+    background-color: green !important;
+    color:white
+  }
+
+  .p-datatable-table{
+    font-size: 0.7rem !important;
+  }
+
+
+  @media print{
+    body{
+      visibility: hidden;
+    }
+   .to-print{
+      visibility: visible;
+      /* position: absolute;
+      top: 0;
+      left: 0; */
+    }
+ }

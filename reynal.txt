@@ -1,0 +1,49 @@
+[
+    ........................
+    "Can_List_Birth",
+    "Can_View_Birth",
+    "Can_Query_Birth",
+    "Can_Approve_Birth",
+    .......dcr.......
+    
+
+
+............................
+    "Can_List_Attestation",
+    "Can_View_Attestation",
+    "Can_Query_Attestation",
+    "Can_Approve_Attestation",
+    .......sd.......
+
+...........................
+    "Can_List_Death",
+    "Can_View_Death",
+    "Can_Query_Death",
+    "Can_Approve_Death",
+    "Can_List_Stillbirth",
+    "Can_View_Stillbirth",
+    "Can_Query_Stillbirth",
+    "Can_Approve_Stillbirth",
+.......dcr...................
+
+
+
+
+
+
+
+
+
+
+...................
+    "Can_Manage_Users",
+    "Can_Manage_State_Directors",
+    "Can_Manage_Registrars",
+    "Can_Manage_DCRs",
+    "Can_Manage_Adhocs" 
+    ......admin..........
+
+
+
+
+]

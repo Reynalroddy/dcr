@@ -14,9 +14,8 @@ const Unauthorized = () => {
     <p className="m-0 font-bold">
         You are not authorized to access this route.
     </p>
-   
+
     <Button label="Go back" severity="danger" className='bg-danger my-2' onClick={handleClick} />
-   
 </Card>
     </div>
   )

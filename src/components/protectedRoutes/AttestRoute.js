@@ -19,7 +19,7 @@ export const BirthRegRoute = ({ children }) => {
   export const DeathRegRoute = ({ children }) => {
     // const { userInfo } = useSelector((state) => state.user);
     const userInfo = JSON.parse(localStorage.getItem('user-birth'))
-  return (userInfo?.permission?.permissions.includes(' Can_List_Death') && userInfo?.permission?.permissions.includes('Can_View_Death'))
+  return (userInfo?.permission?.permissions.includes('Can_List_Death') && userInfo?.permission?.permissions.includes('Can_View_Death'))
   ?children: <Navigate to="/unauth" />;
   };
 

@@ -7,7 +7,7 @@ const ProtectedRouteAdmin = ({ children }) => {
 // const userInfo={name:'true',
 // isAdmin:true};
 
-return userInfo && userInfo.Role_ID ==='1'?children : userInfo && userInfo.Role_ID ==='2'?children :userInfo && userInfo.Role_ID ==='5'?children: <Navigate to="/unauth" />;
+return userInfo && userInfo.Role_ID ==='1'?children : userInfo && userInfo.Role_ID ==='2'?children :userInfo && userInfo.Role_ID ==='5'?children : userInfo && userInfo.Role_ID ==='3'?children: <Navigate to="/unauth" />;
 };
 
 export default ProtectedRouteAdmin;

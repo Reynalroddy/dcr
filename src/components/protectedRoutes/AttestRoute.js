@@ -33,7 +33,7 @@ export const BirthRegRoute = ({ children }) => {
       
      
 
-  export const ModRegRoute = ({ children }) => {
+  export const ModRegRoute = ({ children }) => { 
     // const { userInfo } = useSelector((state) => state.user);
     const userInfo = JSON.parse(localStorage.getItem('user-birth'))
   return (userInfo?.permission?.permissions.includes('Can_List_Modification') && userInfo?.permission?.permissions.includes('Can_View_Modification'))

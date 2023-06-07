@@ -1,6 +1,6 @@
 import axios from "axios";
 const authFetch = axios.create({
-  baseURL: "https://npc-api.dsaved.com/v0/",
+  baseURL: "https://npc-cert.verxid.site/v0/",
 });
 
 

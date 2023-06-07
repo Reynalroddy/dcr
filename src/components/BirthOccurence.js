@@ -30,7 +30,7 @@ const BirthOccurence = () => {
         let count = [];
        
         let labels=[];
-        authFetch.get("https://npc-api.dsaved.com/v0/birth-registration/stats/place-of-ocurrance")
+        authFetch.get("https://npc-cert.verxid.site/v0/birth-registration/stats/place-of-ocurrance")
         .then(res => {
             console.log(res.data);
             setLoad(false);

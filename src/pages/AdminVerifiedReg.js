@@ -60,7 +60,7 @@ const onBasicPageChange = (event) => {
     const getStatz=async()=>{
     
         try {
-            const statistics = await authFetch.get('https://npc-api.dsaved.com/v0/dcr/registrar/total');
+            const statistics = await authFetch.get('https://npc-cert.verxid.site/v0/dcr/registrar/total');
     console.log(statistics.data);
     setRez(statistics.data.total_registrars);
         } catch (error) {
@@ -70,7 +70,7 @@ const onBasicPageChange = (event) => {
     const getNz=async()=>{
     setIsLoading(true)
         try {
-            const statistics = await authFetch.get('https://npc-api.dsaved.com/v0/dcr/registrar/list?search=&result_per_page=20&page=1');
+            const statistics = await authFetch.get('https://npc-cert.verxid.site/v0/dcr/registrar/list?search=&result_per_page=20&page=1');
     console.log(statistics.data);
     setReg(statistics.data.result);
     setIsLoading(false)

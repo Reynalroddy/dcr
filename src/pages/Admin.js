@@ -35,7 +35,7 @@ useEffect(() => {
 const getStatz=async()=>{
 
     try {
-        const statistics = await authFetch.get('https://npc-api.dsaved.com/v0/birth-registration/stats/birth-statistic-data');
+        const statistics = await authFetch.get('https://npc-cert.verxid.site/v0/birth-registration/stats/birth-statistic-data');
 console.log(statistics.data);
 setRez(statistics.data[0]);
     } catch (error) {

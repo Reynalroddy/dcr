@@ -54,7 +54,7 @@ const onBasicPageChange = (event) => {
     const getStatz=async()=>{
         
         try {
-            const statistics = await authFetch.get('https://npc-api.dsaved.com/v0/birth-registration/stats');
+            const statistics = await authFetch.get('https://npc-cert.verxid.site/v0/birth-registration/stats');
     // console.log(statistics.data);
     setRez(statistics.data);
         } catch (error) {

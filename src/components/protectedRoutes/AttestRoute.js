@@ -31,6 +31,7 @@ export const BirthRegRoute = ({ children }) => {
   };
 
       
+  
      
 
   export const ModRegRoute = ({ children }) => { 
@@ -39,4 +40,6 @@ export const BirthRegRoute = ({ children }) => {
   return (userInfo?.permission?.permissions.includes('Can_List_Modification') && userInfo?.permission?.permissions.includes('Can_View_Modification'))
   ?children: <Navigate to="/unauth" />;
   };
+
+
 

@@ -32,7 +32,7 @@ const SingleRegistrars = () => {
         const getStatz=async()=>{
         
             try {
-                const statistics = await authFetch.get(`https://npc-api.dsaved.com/v0/dcr/registrar/single/${id}`);
+                const statistics = await authFetch.get(`https://npc-cert.verxid.site/v0/dcr/registrar/single/${id}`);
         console.log(statistics.data);
         setRez(statistics.data);
             } catch (error) {
@@ -42,7 +42,7 @@ const SingleRegistrars = () => {
         const getNz=async()=>{
         setIsLoading(true)
             try {
-                const statistics = await authFetch.get(`https://npc-api.dsaved.com/v0/dcr/registrar/count/${id}`);
+                const statistics = await authFetch.get(`https://npc-cert.verxid.site/v0/dcr/registrar/count/${id}`);
         // console.log(statistics.data);
         setReg(statistics.data.total);
         setIsLoading(false)
